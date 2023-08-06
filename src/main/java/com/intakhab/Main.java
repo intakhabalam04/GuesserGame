@@ -62,7 +62,6 @@ class GuesserPlayer {
     int guessNumber() {
         RandomNumberGenerator rng = new RandomNumberGenerator();
         guessedNumber = rng.generateRandomNumber();
-        System.out.println(guessedNumber);
         return guessedNumber;
     }
 }
@@ -140,7 +139,7 @@ class GuessingGame {
 
         System.out.print("Enter your username: ");
         enteredUsername = scanner.next();
-        System.out.println("Enter your password:");
+        System.out.print("Enter your password:");
         enteredPassword = scanner.next();
 
     }
