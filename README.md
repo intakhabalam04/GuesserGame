@@ -10,8 +10,8 @@ Make sure you have Java installed.
 
 Compile and run the code using the following commands in the terminal:
 
-### javac LaunchGame.java
-### java LaunchGame
+```javac LaunchGame.java```
+```java LaunchGame```
 
 
 Follow the prompts provided by the program.
