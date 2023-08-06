@@ -2,7 +2,6 @@ package com.intakhab;
 
 import java.util.*;
 
-
 public class Main {
     public static void main(String[] args) {
         UserLogin userLogin = new UserLogin();
